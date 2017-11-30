@@ -9,6 +9,11 @@ Item {
         color: "blue";
     }
 
+    Rectangle {
+        anchors.centerIn: parent;
+        color: "red";
+    }
+
     ColumnLayout {
         anchors.centerIn: parent;
         DigiCalend {
